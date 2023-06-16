@@ -25,9 +25,9 @@ public class MainActivity extends AppCompatActivity {
                 String numero1 = cajaMensaje1.getText().toString();
                 String numero2 = cajaMensaje2.getText().toString();
 
-                String resultado = numero1;
+                Integer resultado = Integer.valueOf(numero1)  + Integer.valueOf(numero2);
 
-                Toast.makeText(getBaseContext(), "Sumaste: " + numero1 + "+" + numero2, Toast.LENGTH_LONG).show();
+                Toast.makeText(getBaseContext(), "Sumaste: " + numero1 + "+" + numero2 + " = " + resultado, Toast.LENGTH_LONG).show();
 
             }
         });
