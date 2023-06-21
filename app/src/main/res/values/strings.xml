@@ -6,4 +6,5 @@
     <string name="substract">Substract</string>
     <string name="divide">Divide</string>
     <string name="multiply">Multiply</string>
+    <string name="btn_salir">Salir</string>
 </resources>
